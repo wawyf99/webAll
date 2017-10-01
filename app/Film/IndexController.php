@@ -9,6 +9,6 @@ class IndexController extends BaseController{
 	}
 
 	function index(){
-		return view('Film/index', ['test' => 'Film-首页']);
+		return view('Film/Index/index', ['test' => 'Film-首页']);
 	}
 }
