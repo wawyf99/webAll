@@ -13,15 +13,17 @@
 
 
 <div id="container">
+    <!-- 引入公共底部 -->
+    @include('Film._public.header.indexHeader')
     <!-- 網站主體Html -->
     @yield('main')
 </div>
 <!-- 自定義引入其它html -->
 @yield('other')
 <!-- 引入公共底部 -->
-
 @include('Film._public.footer.footer')
 <!-- 引入自定義Js -->
+
 @yield('js')
 
 <!-- 引入GA -->

@@ -69,7 +69,7 @@ a:hover
 
 abbr[title]
 {
-    border-bottom: 1px dotted;
+    border-bottom: 0.1rem dotted;
 }
 
 b,
@@ -134,7 +134,7 @@ svg:not(:root)
 
 figure
 {
-    margin: 1em 40px;
+    margin: 1em 0.4rem;
 }
 
 hr
@@ -231,7 +231,7 @@ input[type='search']::-webkit-search-decoration
 
 fieldset
 {
-    margin: 0 2px;
+    margin: 0 0.02rem;
     padding: .35em .625em .75em;
 
     border: 1px solid #c0c0c0;
@@ -282,8 +282,8 @@ th
 body
 {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 0.17rem;
+    line-height: 0.21rem;
 
     color: #000;
     background-color: #efeff4;
@@ -311,61 +311,61 @@ a:active
 
 .mui-bar-nav ~ .mui-content
 {
-    padding-top: 44px;
+    padding-top: 0.44rem;
 }
 .mui-bar-nav ~ .mui-content.mui-scroll-wrapper .mui-scrollbar-vertical
 {
-    top: 44px;
+    top: 0.44rem;
 }
 
 .mui-bar-header-secondary ~ .mui-content
 {
-    padding-top: 88px;
+    padding-top: 0.88rem;
 }
 .mui-bar-header-secondary ~ .mui-content.mui-scroll-wrapper .mui-scrollbar-vertical
 {
-    top: 88px;
+    top: 0.88rem;
 }
 
 .mui-bar-footer ~ .mui-content
 {
-    padding-bottom: 44px;
+    padding-bottom: 0.44rem;
 }
 .mui-bar-footer ~ .mui-content.mui-scroll-wrapper .mui-scrollbar-vertical
 {
-    bottom: 44px;
+    bottom: 0.44rem;
 }
 
 .mui-bar-footer-secondary ~ .mui-content
 {
-    padding-bottom: 88px;
+    padding-bottom: 0.88rem;
 }
 .mui-bar-footer-secondary ~ .mui-content.mui-scroll-wrapper .mui-scrollbar-vertical
 {
-    bottom: 88px;
+    bottom: 0.88rem;
 }
 
 .mui-bar-tab ~ .mui-content
 {
-    padding-bottom: 50px;
+    padding-bottom: 0.50rem;
 }
 .mui-bar-tab ~ .mui-content.mui-scroll-wrapper .mui-scrollbar-vertical
 {
-    bottom: 50px;
+    bottom: 0.50rem;
 }
 
 .mui-bar-footer-secondary-tab ~ .mui-content
 {
-    padding-bottom: 94px;
+    padding-bottom: 0.94rem;
 }
 .mui-bar-footer-secondary-tab ~ .mui-content.mui-scroll-wrapper .mui-scrollbar-vertical
 {
-    bottom: 94px;
+    bottom: 0.94rem;
 }
 
 .mui-content-padded
 {
-    margin: 10px;
+    margin: 0.10rem;
 }
 
 .mui-inline
@@ -466,7 +466,7 @@ a:active
 
 .mui-list-inline
 {
-    margin-left: -5px;
+    margin-left: -0.05rem;
     padding-left: 0;
 
     list-style: none;
@@ -476,8 +476,8 @@ a:active
 {
     display: inline-block;
 
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 0.05rem;
+    padding-left: 0.05rem;
 }
 
 .mui-clearfix:before, .mui-clearfix:after
@@ -508,24 +508,24 @@ a:active
 
 .mui-error
 {
-    margin: 88px 35px;
-    padding: 10px;
+    margin: 0.88rem 0.35rem;
+    padding: 0.10rem;
 
-    border-radius: 6px;
+    border-radius: 0.06rem;
     background-color: #bbb;
 }
 
 .mui-subtitle
 {
-    font-size: 15px;
+    font-size: 0.15rem;
 }
 
 h1, h2, h3, h4, h5, h6
 {
     line-height: 1;
 
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0.05rem;
+    margin-bottom: 0.05px;
 }
 
 h1, .mui-h1
